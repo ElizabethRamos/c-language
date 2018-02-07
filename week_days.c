@@ -11,9 +11,9 @@ Weekdays:
 5. Thursday
 6. Friday
 7. Saturday
-Check the Week days using switch case
+Checks Week days using switch case. Works better than a lot of if's.
 */
-    int dia = 7;
+    int dia = 9;
     switch(dia)
     {
         case 1: 
@@ -36,7 +36,9 @@ Check the Week days using switch case
             break;
         case 7:
             printf("Saturday");
-            break;                        
+            break;
+        default: 
+            printf("Day not found");                         
     }
     return 0;
 }
