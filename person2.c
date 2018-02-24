@@ -21,6 +21,7 @@ int main()
     p->age = 30;
 
     printf("Age: %d\n", person.age);
-
+    printf("%lu\n", sizeof(person));
+    
     return 0;
 }
