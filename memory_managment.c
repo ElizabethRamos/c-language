@@ -20,5 +20,7 @@ int main()
 
     printf("%d\n", vet[0]);
 
+    free(vet);
+
     return 0;
 }
