@@ -6,7 +6,8 @@
 int main()
 {
     int * vet;
-
+    
+    //alocando 10 inteiros 
     vet = (int * )malloc(MAX * sizeof(int));
 
     if(vet == NULL)
